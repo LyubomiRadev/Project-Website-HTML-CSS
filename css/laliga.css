@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@font-face{
+	font-family: h1font;
+	src: url(../fonts/com.ttf);
+}
+@font-face{
+	font-family: bz;
+	src: url(../fonts/LeaffyPersonalUse.ttf);
+}
+@font-face{
+	font-family: gillete;
+	src:url(../fonts/mulders-handwriting.ttf);
+}
+.container{
+	background-image: url(../images/bg5.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: yellow;
+	max-width: 900px;
+	margin: 0 auto;
+	border: 4px solid red;
+	box-shadow: -3px -3px 4px yellow, -3px -3px 4px #ffd800;
+	padding: 5px;
+	position: relative;
+	z-index: 1;
+	border-radius: 3px;
+}
+body{
+	background-image: url(../images/bgcl.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav{
+	color: yellow;
+	font-family: Arial;
+	font: strong;
+	text-align: center;
+
+}
+.pls{
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	color: white;
+	font-style: Italic;
+	text-shadow: 4px 4px 2px #2AC68C, 6px 6px 4px #4C2866;
+}
+h1{
+	color: yellow;
+	font-weight: bold;
+	font-family: h1font;
+}
+.navb{
+	color:  #ffff00;
+	font-family: 'Acme', sans-serif;
+	background-color: #ff471a;
+	padding: 3px 2px;
+	border-radius: 3px;
+	box-shadow: -2px -2px 4px #ffff33;
+	text-decoration: none;
+}
+.navb:hover{
+	color: #66b3ff;
+}
+.navb:active{
+	background-color: #cc0000;
+	box-shadow: 2px 2px 4px #ffff33;
+}
+.plt{
+	color:  #ffff00;
+	font-family: 'Acme', sans-serif;
+	background-color: black;
+	padding: 3px 2px;
+	border-radius: 3px;
+	box-shadow: -2px -2px 4px #ffff33;
+	text-decoration: none;
+	text-align: center;
+}
+.plt:hover{
+	color: red;
+}
+.plt:active{
+	background-color: black;
+	box-shadow: 2px 2px 4px red;
+}
+.h1la{
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	color: #FC0B00;
+	text-shadow: 4px 4px 2px #FFDF05, 6px 6px 4px #244B81;
+}
+.topics {
+	box-shadow: 3px 3px 5px #eae66b;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.mesiBa::after{
+	display: block;
+	clear: both;
+	content: "";
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+.ba{
+	color: #3333ff;
+	font-weight: 800;
+}
+.rca{
+	color: #e60000;
+	font-weight: 800;
+}
+.rca:hover{
+	color: white;
+}
+.ba:hover{
+	color: white;
+}
+.cl{
+	color: #00356E;
+}
